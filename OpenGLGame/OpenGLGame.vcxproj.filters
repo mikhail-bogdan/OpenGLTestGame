@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{bc144693-2b3f-4e41-9c3e-fbd8dcb84a56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Math">
+      <UniqueIdentifier>{494f71f9-1de8-443f-8dae-8a14f72f5056}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Audio">
+      <UniqueIdentifier>{dab41af1-5090-4764-8305-b5d146bfb0e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Audio">
+      <UniqueIdentifier>{fa26098b-2f27-4470-b9ad-da4191f74f7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Audio">
+      <UniqueIdentifier>{cae10a5f-2aa1-4f20-a297-a562b8056f9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\TextShader">
+      <UniqueIdentifier>{4d037fbe-9689-48b7-a188-2fd31773d90e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture2D.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteRenderer.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="wav_util.cpp">
+      <Filter>Utils\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioManager.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Utils\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioListener.cpp">
+      <Filter>Исходные файлы\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioSource.cpp">
+      <Filter>Исходные файлы\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioClip.cpp">
+      <Filter>Исходные файлы\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>Utils\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector4.cpp">
+      <Filter>Utils\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Quaternion.cpp">
+      <Filter>Utils\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix4x4.cpp">
+      <Filter>Utils\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix3x3.cpp">
+      <Filter>Utils\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="TextRenderer.cpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Graphics.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture2D.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteRenderer.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="wav_util.h">
+      <Filter>Utils\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioManager.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectDefines.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassIDs.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioClip.h">
+      <Filter>Файлы заголовков\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioListener.h">
+      <Filter>Файлы заголовков\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioSource.h">
+      <Filter>Файлы заголовков\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Utils\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Utils\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector4.h">
+      <Filter>Utils\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Quaternion.h">
+      <Filter>Utils\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix3x3.h">
+      <Filter>Utils\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix4x4.h">
+      <Filter>Utils\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="TextRenderer.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vertex.glsl">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="fragment.glsl">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="vertexText.glsl">
+      <Filter>Файлы ресурсов\TextShader</Filter>
+    </None>
+    <None Include="fragmentText.glsl">
+      <Filter>Файлы ресурсов\TextShader</Filter>
+    </None>
+  </ItemGroup>
+</Project>
