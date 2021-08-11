@@ -31,6 +31,9 @@
     <Filter Include="Файлы ресурсов\TextShader">
       <UniqueIdentifier>{4d037fbe-9689-48b7-a188-2fd31773d90e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Utils\ForKate">
+      <UniqueIdentifier>{76ac5683-1a72-4a42-ac80-7a6565d51576}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -104,6 +107,12 @@
     </ClCompile>
     <ClCompile Include="TextRenderer.cpp">
       <Filter>Файлы заголовков</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshRenderer.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="main2.cpp">
+      <Filter>Utils\ForKate</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -180,6 +189,9 @@
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="TextRenderer.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshRenderer.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

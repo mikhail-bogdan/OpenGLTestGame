@@ -305,7 +305,7 @@ SDL_Event* Graphics::PollEvent()
 void Graphics::Update(SDL_Event* event)
 {
 	glClearColor(0, 1, 0, 0);
-	glClear(GL_COLOR_BUFFER_BIT);
+	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
 	for (auto iter = this->renderers.begin(); iter != this->renderers.end(); iter++)
 	{
